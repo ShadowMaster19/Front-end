@@ -1,5 +1,8 @@
-<<<<<<< HEAD
-# Back-end
+#Contributors
+   Back-End:Jonathan Gonzalez Morere/ShadowMaster19
+   Front-End:Addis Sahle/addis06
+
+# Guide to run the server of Front-End
 =======
 # 🏦 MoneySprout Banking App
 
@@ -100,15 +103,6 @@ Banking-App/
 - **Linear Gradient** - Visual effects
 - **React Native Safe Area** - Safe area handling
 
-## 🎨 UI/UX Features
-
-- **Modern design** with gradients and shadows
-- **Responsive layout** for different screen sizes
-- **Dark/Light mode** support
-- **Smooth animations** and transitions
-- **Intuitive navigation** with tab bar
-- **Accessibility** considerations
-
 ## 📱 Available Scripts
 
 - `npm run web` - Start web development server
@@ -137,22 +131,34 @@ Banking-App/
 - **YouTube Integration**: Direct links to educational content
 - **Learning Path**: Structured progression through topics
 
-## 🤝 Contributing
+# Guide to initialize the back-end and Run the ChatBot
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+#Move to the back-end folder
+```
 
-## 📄 License
+cd backend
+```
 
-This project is licensed under the MIT License.
+# Set up virtual environment
+```
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+```
 
-## 🆘 Support
+# Install dependencies
+```
+pip install -r requirements.txt
+```
+# Configure environment
+```
+cp .env.example .env
+```
+# Edit .env with your Google API key
 
-For support or questions, please open an issue in the GitHub repository.
+# Run the server
+```
+python app.py
+```
+#If eveyrthing is working you should be able to text with the chatbot in the website
 
----
 
-**Built with ❤️ using React Native and Expo**
->>>>>>> 64e01950142cc319efba127d11434e1bd2827621
