@@ -1,12 +1,13 @@
-#Contributors
-   Back-End:Jonathan Gonzalez Morere/ShadowMaster19
-   Front-End:Addis Sahle/addis06
+
 
 # Guide to run the server of Front-End
-=======
+
 # 🏦 MoneySprout Banking App
 
 A modern React Native banking application built with Expo, featuring authentication, goal tracking, educational content, and financial management tools.
+#Contributors
+   ##Back-End:Jonathan Gonzalez Morere/ShadowMaster19
+   ##Front-End:Addis Sahle/addis06
 
 ## ✨ Features
 
