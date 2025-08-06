@@ -71,31 +71,6 @@ A modern React Native banking application built with Expo, featuring authenticat
    - Navigate to `http://localhost:8081` (or the port shown in terminal)
    - Sign in with: `alex@example.com` / `password`
 
-## 🏗️ Project Structure
-
-```
-Banking-App/
-├── app/                    # Expo Router pages
-│   ├── (tabs)/           # Tab navigation screens
-│   │   ├── index.tsx     # Home screen
-│   │   ├── goals.tsx     # Add savings
-│   │   ├── check-goals.tsx # Goal tracking
-│   │   ├── videos.tsx    # Educational content
-│   │   ├── profile.tsx   # User profile
-│   │   └── explore.tsx   # Explore features
-│   ├── signin.tsx        # Authentication screen
-│   └── _layout.tsx       # Root layout
-├── components/            # Reusable components
-│   ├── AuthGuard.tsx     # Authentication guard
-│   └── ui/               # UI components
-├── services/             # Context providers
-│   ├── AppContext.tsx    # Global app state
-│   └── AuthContext.tsx   # Authentication state
-├── constants/            # App constants
-├── hooks/               # Custom hooks
-└── assets/              # Images and fonts
-```
-
 ## 🔧 Technologies Used
 
 - **React Native** - Cross-platform mobile development
