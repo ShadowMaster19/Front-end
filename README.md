@@ -156,11 +156,13 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 # Edit .env with your Google API key
-
+```
+Example:GOOGLE_API_KEY="Your google API keys"
+```
 # Run the server
 ```
 python app.py
 ```
-#If eveyrthing is working you should be able to text with the chatbot in the website
+#If eveyrthing is working you should be able to caht with the chatbot in the website
 
 
