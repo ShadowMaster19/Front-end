@@ -7,7 +7,7 @@
 A modern React Native banking application built with Expo, featuring authentication, goal tracking, educational content, and financial management tools.
 
 # Contributors
-   ## Back-End:Jonathan Gonzalez Morere, Github : ShadowMaster19
+   ## Back-End:Jonathan Gonzalez Morere, Github : jonathan-gonzalez19
    ## Front-End:Addis Sahle, Github : addis06
 
 ## ✨ Features
